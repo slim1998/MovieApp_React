@@ -1,0 +1,141 @@
+.goldstar{
+  color:red;
+  margin: 9px;
+  padding: 0;
+  cursor: pointer;
+
+}
+.greystar{
+  color: wheat; 
+  margin: 9px;
+  padding: 0;
+  cursor: pointer;
+
+}
+.Bigcontainer{
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
+  
+ 
+}
+.Movi-img{
+height: 325px;
+width: 255px;
+display: flex;
+flex-wrap: wrap;
+padding: 0;
+}
+
+p{
+  margin-top: 10px;
+  max-width: 250px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.712);
+}
+label{
+  max-width: 295px;
+  margin-left: 10px;
+  
+
+}
+.container{
+  
+  border:  #645960;
+  margin: 15px;
+  padding: 0;
+  max-width:256px;
+  background-color: #67d0f3;
+  background-image: linear-gradient(315deg, #5b6467 0%, #6fbafc 74%);  
+  margin-left: 4%;
+}
+.container:hover{
+  cursor: pointer;
+  background-color: rgb(140, 194, 255);
+  -webkit-box-shadow: 15px 10px 7px 1px rgba(0,0,0,0.54);
+-moz-box-shadow: 15px 10px 7px 1px rgba(0,0,0,0.54);
+box-shadow: 15px 10px 7px 1px rgba(0,0,0,0.54);
+
+}
+.movi-cont{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.Bar{
+  width: 100%;
+  padding-left: 30px;
+  background-color: #80cee4;
+  background-image:linear-gradient(315deg, #aca3a4 0%, #382626 74%)
+ 
+}
+.Searchmovie{
+  width: 60%;
+  margin-left: 10%;
+  height: 45px;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 8px;
+  margin-top: 15px;
+  color:rgb(226, 142, 142);
+}
+.Button-search{
+  height: 42px;
+  border-radius: 5px;
+  width: 80px;
+
+}
+.SearchStars{
+  font-size: large;
+  margin-left: 15px;
+  color:white;
+  font-weight: 500;
+  font-family: cursive;
+}
+/*Modal*/
+.Modal-cont{
+  margin: 15px ;
+  height: 325px;
+  width: 250px;
+}
+.Modal-img{
+width:5vw ;
+}
+.Modal-cont .Modal-img:hover{
+  width: 5.5vw;
+}
+.MN{
+  margin-top: 5%;
+}
+.Modal-content{
+height: 40vw;
+}
+.Modal-input{
+  height: 20vw;
+  padding: 0;
+  
+  
+}
+label.fname{
+  font-family: sans-serif;
+  font-size: 16px;
+  margin-left: 18%;
+  width: 260px;
+  text-align: center ;
+  color: rgb(52, 67, 71)  ;
+  
+}
+.input{
+  margin-left: 8%;
+  width: 25vw;
+  border-radius: 5px;
+  height: 40px;
+  background-color: rgb(112, 81, 81);
+  font-size: 15px;
+}
+.title-input{
+  padding-right: 15px;
+}
